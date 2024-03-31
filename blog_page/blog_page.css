@@ -1,0 +1,21 @@
+h1 {
+    background-color: midnightblue;
+    font-style: italic;
+}
+
+h2 {
+    font-family: Helvetica;
+}
+
+.post1 {
+    font-size: 30px;
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+
+.post2 {
+    font-size: 30px;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
