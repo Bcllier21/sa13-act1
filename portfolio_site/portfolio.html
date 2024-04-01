@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Brian's Portfolio Site </title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<header>
+    <h1> Brian's Portfolio Site </h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#welcome">Welcome</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <section>
+        <h2> Welcome </h2> <hr>
+        <p> Hey, Brian here. I do Computer Science stuff! </p> <br>
+    </section>
+    <section>
+        <h2> Gallery </h2> <hr>
+        <div class = "gallery" >
+            <div>
+                <img src = sample1.PNG alt="word frequency in a document"> 
+                <img src = sample2.PNG alt="insertion sort with time"> 
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+        
+    <section>
+        <h2> Contact Form </h2> <hr>
+        <div class="form">
+            <form action="contact from.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="First Name">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+                <label for="email">Email</label>
+                <input type="text" id="em" name="email" placeholder="Email">
+            
+                <label for="message">Message</label>
+                <input type="message" id="msg" name="message" placeholder="Message">
+                <input type="send" value = "Send">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
